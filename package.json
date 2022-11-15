@@ -1,16 +1,14 @@
 {
-  "name": "mock-coding-json",
+  "name": "test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Test Database",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Jaiprakash Gupta",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0",
-    "nodemon": "^2.0.19"
+    "json-server": "^0.16.3"
   }
 }
